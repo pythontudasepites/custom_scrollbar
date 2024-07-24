@@ -1,6 +1,6 @@
 # Egyéni görgetősáv
 
-A *custom_scrollbar_widget* modulban található *CustomScrollbar* osztály egy olyan egyéni grafikus vezérlőelemet valósít meg, amely a *tkinter* modul által kínált görgetősávhoz (Scrollbar) hasonló, és amelynél a csúszkát (slider) a vezetőcsatornában (trough) két módon lehet mozgatni:
+A ***custom_scrollbar_widget*** modulban található *CustomScrollbar* osztály egy olyan egyéni grafikus vezérlőelemet valósít meg, amely a *tkinter* modul által kínált görgetősávhoz (Scrollbar) hasonló, és amelynél a csúszkát (slider) a vezetőcsatornában (trough) két módon lehet mozgatni:
 
     - a bal vagy jobb oldali nyomógombokkal az aktuálisan érvényes lépésközzel (resolution), vagy
     
@@ -28,7 +28,7 @@ _variable_: egy *DoubleVar* vagy *StringVar* típusú kontrollváltozó, amelly
 
 Ahogy más *tkinter* grafikus elemek esetében, a *CustomScrollbar* esetében is a felsorolt konfigurációs paraméterek értékét ki lehet kérni a *CustomScrollbar* példányra meghívott **cget()** metódussal, valamint az értéküket be lehet állítani a **config()** vagy **configure()** metódusokkal. Az említett két nyilvános metóduson felül az osztályban definiált **move_slider_to()** nyilvános metódussal lehet a csúszkát egy adott pozícióba állítani.
 
-Azt, hogy az elkészült *CustomScrollbar* teljesíti-e az előírt követelményeket a szkriptként futtatandó *custom_scrollbar_test_app* modulban levő tesztalkalmazással ellenőrizzük. Ez az egyéni görgetősáv működésének és konfigurálhatóságának tesztelését teszi lehetővé olyan módon, hogy az alkalmazás indításakor kirajzol egy kört, valamint a kör kiinduló méretét befoglaló és a kétszer akkora sugarú kört befoglaló négyzeteket. Ezek alatt jelenik meg az egyéni görgetősáv. Ez alatt pedig egy olyan vezérlőpanel, ahol a görgetősáv konfigurálható paramétereinek értékét lehet állítani. Az új értékeket a megfelelő beviteli mezőkbe kell beírni, és a „Konfiguráció aktualizálás” gombra kattintva érvényesíteni. Ekkor a görgetősáv az új konfiguráció szerint fog megjelenni. A lépésköz változtatásának hatását természetesen csak a csúszka jobb vagy bal oldali gombokkal történő mozgatásakor érzékeljük. Ha a csúszka elmozdul, akkor a kör mérete csökken vagy nő. Növelni legfeljebb a kiinduló méret kétszeresére lehet.
+Azt, hogy az elkészült *CustomScrollbar* teljesíti-e az előírt követelményeket a szkriptként futtatandó ***custom_scrollbar_test_app*** modulban levő tesztalkalmazással ellenőrizzük. Ez az egyéni görgetősáv működésének és konfigurálhatóságának tesztelését teszi lehetővé olyan módon, hogy az alkalmazás indításakor kirajzol egy kört, valamint a kör kiinduló méretét befoglaló és a kétszer akkora sugarú kört befoglaló négyzeteket. Ezek alatt jelenik meg az egyéni görgetősáv. Ez alatt pedig egy olyan vezérlőpanel, ahol a görgetősáv konfigurálható paramétereinek értékét lehet állítani. Az új értékeket a megfelelő beviteli mezőkbe kell beírni, és a „Konfiguráció aktualizálás” gombra kattintva érvényesíteni. Ekkor a görgetősáv az új konfiguráció szerint fog megjelenni. A lépésköz változtatásának hatását természetesen csak a csúszka jobb vagy bal oldali gombokkal történő mozgatásakor érzékeljük. Ha a csúszka elmozdul, akkor a kör mérete csökken vagy nő. Növelni legfeljebb a kiinduló méret kétszeresére lehet.
 
 A futtatáshoz Python 3.10+ szükséges.
 
