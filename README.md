@@ -34,6 +34,6 @@ A futtatáshoz Python 3.10+ szükséges.
 
 Az alábbi képernyőképek különböző konfigurációs beállítások és csúszkaállások mellett mutatják az egyéni görgetősáv kinézetét, valamint a tesztkör méretét.
 
-<img src="https://github.com/pythontudasepites/custom_scrollbar/blob/main/custom_scrollbar_1.jpg" width="623" height="142">
+<img src="https://github.com/pythontudasepites/custom_scrollbar/blob/main/custom_scrollbar_1.jpg" width="623" height="327">
 
 <img src="https://github.com/pythontudasepites/custom_scrollbar/blob/main/ custom_scrollbar_2.jpg" width="623" height="420">
